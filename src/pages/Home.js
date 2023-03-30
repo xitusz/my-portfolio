@@ -21,7 +21,7 @@ class Home extends React.Component {
               Desenvolvedor Web Full Stack
             </p>
           </div>
-          <hr className="w-40 my-9 mx-auto text-color-#ccc" />
+          <hr className="w-40 my-9 mx-auto text-color-#ccc shadow-black" />
           <div className="text-center py-2 pr-20 text-1.1rem leading-1.6rem bg-color-#282A2C bg-cover shadow-black bg-opacity-80 w-max m-auto">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed

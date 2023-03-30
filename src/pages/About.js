@@ -45,7 +45,7 @@ class About extends React.Component {
             <img src="" alt="Minha foto" className="w-full" />
           </div>
         </div>
-        <hr className="w-30% my-9 mx-auto text-color-#ccc" />
+        <hr className="w-30% my-9 mx-auto text-color-#ccc shadow-black" />
         <div className="text-center mb-28 py-2 w-3/5 m-auto bg-color-#282A2C bg-cover shadow-black bg-opacity-70">
           <h1 className="text-4xl font-bold mb-2 font-albertson tracking-wider">
             Habilidades

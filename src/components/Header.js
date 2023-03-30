@@ -8,7 +8,7 @@ class Header extends React.Component {
         <div>
           <NavLink
             to="/"
-            className="no-underline  hover:text-color-#ffdc84 nav-link"
+            className="text-color-#ccc no-underline  hover:text-color-#ffdc84"
           >
             Início
           </NavLink>
@@ -17,7 +17,7 @@ class Header extends React.Component {
         <div>
           <NavLink
             to="/about"
-            className="no-underline  hover:text-color-#ffdc84 nav-link"
+            className="text-color-#ccc no-underline  hover:text-color-#ffdc84"
           >
             Sobre
           </NavLink>
@@ -26,7 +26,7 @@ class Header extends React.Component {
         <div>
           <NavLink
             to="/projects"
-            className="no-underline  hover:text-color-#ffdc84 nav-link"
+            className="text-color-#ccc no-underline  hover:text-color-#ffdc84"
           >
             Projetos
           </NavLink>
