@@ -13,6 +13,17 @@ module.exports = {
       "color-#5c4200": "#5c4200",
       "color-#c45911": "#c45911",
     },
+    borderRadius: {
+      none: "0",
+      sm: "0.125rem",
+      DEFAULT: "0.25rem",
+      md: "0.375rem",
+      lg: "0.5rem",
+      full: "9999px",
+      large: "12px",
+      "3rem": "3rem",
+      "20%": "20%",
+    },
     fontSize: {
       sm: "0.8rem",
       base: "1rem",
