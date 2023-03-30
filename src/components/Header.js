@@ -4,18 +4,33 @@ import { NavLink } from "react-router-dom";
 class Header extends React.Component {
   render() {
     return (
-      <div>
+      <div className="flex justify-evenly text-xl py-7 bg-transparent">
         <div>
-          <NavLink to="/">Início</NavLink>
-          <hr />
+          <NavLink
+            to="/"
+            className="no-underline  hover:text-color-#ffdc84 nav-link"
+          >
+            Início
+          </NavLink>
+          <hr className="mt-1.5 text-color-#ccc" />
         </div>
         <div>
-          <NavLink to="/about">Sobre</NavLink>
-          <hr />
+          <NavLink
+            to="/about"
+            className="no-underline  hover:text-color-#ffdc84 nav-link"
+          >
+            Sobre
+          </NavLink>
+          <hr className="mt-1.5 text-color-#ccc" />
         </div>
         <div>
-          <NavLink to="/projects">Projetos</NavLink>
-          <hr />
+          <NavLink
+            to="/projects"
+            className="no-underline  hover:text-color-#ffdc84 nav-link"
+          >
+            Projetos
+          </NavLink>
+          <hr className="mt-1.5 text-color-#ccc" />
         </div>
       </div>
     );
