@@ -3,8 +3,8 @@ import React from "react";
 class Footer extends React.Component {
   render() {
     return (
-      <div>
-        <div>
+      <div className="flex justify-center items-center fixed w-full text-center bg-transparent bottom-0 left-0">
+        <div className="flex justify-center items-center bg-color-#282A2C py-2 px-8 pb-3 rounded-t-3rem shadow-black">
           <a
             href="https://www.linkedin.com/in/gabrielalves1/"
             target="_blank"
@@ -15,9 +15,15 @@ class Footer extends React.Component {
               alt="linkedIn"
               height="50px"
               width="50px"
+              className="rounded-full"
             />
           </a>
-          <a href="https://github.com/xitusz" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/xitusz"
+            target="_blank"
+            rel="noreferrer"
+            className="mx-2.5"
+          >
             <img
               src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png"
               alt="github"
@@ -35,6 +41,7 @@ class Footer extends React.Component {
               alt="gmail"
               height="50px"
               width="50px"
+              className="rounded-full"
             />
           </a>
         </div>
