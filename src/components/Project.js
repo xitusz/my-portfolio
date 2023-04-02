@@ -6,7 +6,7 @@ class Project extends React.Component {
   render() {
     const { name, image, info, about, github, deployed, page } = this.props;
     return (
-      <div className="flex flex-col items-center snap-start scroll-ml-6 my-6 mx-6 pb-6 rounded min-w-30% bg-color-#282A2C bg-cover shadow-black bg-opacity-50">
+      <div className="flex flex-col items-center snap-start scroll-ml-6 my-6 mx-6 pb-6 rounded min-w-30% bg-color-#282A2C bg-cover shadow-black bg-opacity-70">
         <p className="text-1.2rem font-bold p-4">{name}</p>
         <ModalImage
           className="w-full mb-4"
