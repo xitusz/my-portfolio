@@ -17,32 +17,53 @@ class About extends React.Component {
     return (
       <div>
         <Header />
-        <div className="flex mx-12 mt-6 text-1.1rem">
-          <div className="text-center mr-1 w-3/6 leading-1.6rem">
-            <p>Olá 👋, Eu sou o Gabriel Alves</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
-            </p>
-          </div>
-          <div className="text-center ml-1 w-3/6">
-            <img src="" alt="Minha foto" className="w-full" />
+        <div className="flex px-12 pt-6 text-1.1rem">
+          <div className="m-auto">
+            <div>
+              <img
+                src="https://github.com/xitusz/xitusz/raw/main/RGB.gif"
+                alt="Minha foto github"
+                className="m-auto"
+              />
+            </div>
+            <div className="text-center p-6 bg-color-#282A2C bg-cover shadow-black bg-opacity-70 pr-5">
+              <p>
+                Olá 👋, meu nome é Gabriel Alves, tenho 22 anos e sou
+                desenvolvedor full stack.
+              </p>
+              <p>
+                Desde que tive meu primeiro contato com a programação, me
+                apaixonei por essa área e venho buscando sempre me aprimorar.
+              </p>
+              <p>
+                Minha paixão pela programação começou quando começei a aprender
+                Java para programar jogos.
+              </p>
+              <p>
+                Foi incrível ver como a programação pode ser usada para criar
+                algo tão divertido e interativo.
+              </p>
+              <p>
+                Atualmente, minhas habilidades são as listadas abaixo, estas que
+                estudei e tenho conhecimento
+              </p>
+              <p>
+                Mas, mesmo com essas habilidades, estou sempre em busca de
+                aprender novas tecnologias e não recuso um desafio.
+              </p>
+              <p>
+                Além da programação, também gosto muito de jogar com meus
+                amigos.
+              </p>
+              <p>
+                Seja videogame, jogos de tabuleiro ou esportes, sempre procuro
+                formas de me divertir com eles.
+              </p>
+              <p>
+                Acredito que é importante ter um equilíbrio entre trabalho e
+                lazer para ter uma vida saudável e feliz.
+              </p>
+            </div>
           </div>
         </div>
         <hr className="w-30% my-9 mx-auto text-color-#ccc shadow-black" />
