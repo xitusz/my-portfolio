@@ -24,7 +24,7 @@ class Projects extends React.Component {
     return (
       <div>
         <Header />
-        <div className="text-center mx-auto mb-28 mt-6">
+        <div className="text-center mx-auto mt-6">
           <div className="mb-12">
             <h1 className="text-4xl font-bold font-albertson tracking-wider">
               Projetos pessoais
