@@ -22,26 +22,22 @@ class Home extends React.Component {
             </p>
           </div>
           <hr className="w-40 my-9 mx-auto text-color-#ccc shadow-black" />
-          <div className="text-center py-2 pr-20 text-1.1rem leading-1.6rem bg-color-#282A2C bg-cover shadow-black bg-opacity-80 w-max m-auto">
+          <div className="text-center py-2 px-10 text-1.1rem leading-1.6rem bg-color-#282A2C bg-cover shadow-black bg-opacity-80 w-3/6 m-auto">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
-            </p>
-            <p className="ml-20">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
-            </p>
-            <p className="ml-40">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
-            </p>
-            <p className="ml-20">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
+              Eu tenho o prazer de apresentar meu portfolio web desenvolvido em
+              React.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis feugiat lacinia.
+              Ele apresenta uma visão geral dos meus projetos, minhas
+              habilidades e competências técnicas.
+            </p>
+            <p>
+              Encontrará uma seção de projetos que desenvolvi em diversas
+              tecnologias, incluindo React, Node.js, MySQL e muitas outras.
+            </p>
+            <p>
+              Mesmo não sendo um bom designer, fiz o meu melhor para criar um
+              site que seja esteticamente agradável e fácil de usar.
             </p>
           </div>
         </div>
