@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const navigationLinks = [
-    { to: "/", text: "Início" },
-    { to: "/about", text: "Sobre" },
-    { to: "/projects", text: "Projetos" },
+    { to: "/my-portfolio/", text: "Início" },
+    { to: "/my-portfolio/about", text: "Sobre" },
+    { to: "/my-portfolio/projects", text: "Projetos" },
   ];
 
   return (
