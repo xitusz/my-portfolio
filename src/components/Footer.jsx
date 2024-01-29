@@ -17,9 +17,7 @@ const Footer = () => {
                 alt="github"
                 className="h-16"
               />
-              <p className="text-2xl font-semibold whitespace-nowrap">
-                GitHub
-              </p>
+              <p className="text-2xl font-semibold whitespace-nowrap">GitHub</p>
             </a>
             <ul className="flex flex-wrap">
               <li className="pr-2">
@@ -65,6 +63,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;
