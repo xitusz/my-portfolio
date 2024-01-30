@@ -2,3 +2,10 @@
   color: #ffba05;
   font-weight: bold;
 }
+
+.background-header {
+  height: 80px;
+  background-image: url(../assets/images/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
