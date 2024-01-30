@@ -1,0 +1,6 @@
+.background-footer {
+  height: 240px;
+  background-image: url(../assets/images/footer.jpg);
+  background-size: cover;
+  background-position: center;
+}
