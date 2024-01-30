@@ -43,9 +43,13 @@ import techNews from "./computer-science/tech-news.png";
 import algorithms from "./computer-science/algorithms.png";
 import ting from "./computer-science/ting.png";
 
+// Personal Projects
+import project1 from "./personal-projects/project1.gif";
+
 export default {
   noImage,
   background,
+  project1,
   lessonsLearned,
   playgroundFunctions,
   pixelArt,

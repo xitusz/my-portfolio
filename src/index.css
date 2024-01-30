@@ -51,3 +51,7 @@ code {
 .font-albertson {
   font-family: -apple-system, BlinkMacSystemFont, Albertson, sans-serif;
 }
+
+.border-background-50 {
+  border-image: url(./assets/images/border.jpg) 50 round;
+}

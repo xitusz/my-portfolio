@@ -1,0 +1,5 @@
+.selected {
+  border: 7px solid;
+  border-image: url(../assets/images/border.jpg) 50 round;
+  color: #ffba05;
+}
