@@ -1,9 +1,10 @@
+import img from "../assets/images";
+
 const personalProject = [
   {
     id: 1,
     name: "Personal Project 1",
-    image:
-      "https://raw.githubusercontent.com/xitusz/personal-project-1/main/readme-images/region.gif",
+    image: img.project1,
     info: false,
     about: "",
     github: "https://github.com/xitusz/personal-project-1",
