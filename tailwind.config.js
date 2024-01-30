@@ -4,25 +4,19 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     colors: {
-      "color-#ccc": "#ccc",
-      "color-#282A2C": "#282A2C",
-      "color-#212529": "#212529",
-      "color-#e38f4e": "#e38f4e",
       "color-#ffba05": "#ffba05",
       "color-#ffdc84": "#ffdc84",
-      "color-#5c4200": "#5c4200",
-      "color-#c45911": "#c45911",
     },
-    borderRadius: {
-      none: "0",
-      sm: "0.125rem",
-      DEFAULT: "0.25rem",
-      md: "0.375rem",
-      lg: "0.5rem",
-      full: "9999px",
-      large: "12px",
-      "3rem": "3rem",
-      "20%": "20%",
+    borderWidth: {
+      DEFAULT: "1px",
+      0: "0",
+      2: "2px",
+      3: "3px",
+      4: "4px",
+      5: "5px",
+      6: "6px",
+      7: "7px",
+      8: "8px",
     },
     fontSize: {
       sm: "0.8rem",
@@ -47,9 +41,13 @@ module.exports = {
       width: {
         "30%": "30%",
         "35%": "35%",
+        "460px": "460px",
       },
       minWidth: {
-        "30%": "30%",
+        "460px": "460px",
+      },
+      maxWidth: {
+        "460px": "460px",
       },
       lineHeight: {
         "0.3rem": "0.3rem",
