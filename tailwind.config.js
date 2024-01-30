@@ -38,6 +38,9 @@ module.exports = {
       "8rem": "8rem",
     },
     extend: {
+      backgroundImage: {
+        background2: "url(./assets/images/background2.jpg)",
+      },
       boxShadow: {
         black: "0 4px 8px 0 black",
       },
