@@ -9,7 +9,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex justify-evenly text-xl py-7 bg-transparent">
+    <div className="flex justify-evenly text-xl py-5 background-header">
       {navigationLinks.map((link) => (
         <div key={link.text}>
           <NavLink
