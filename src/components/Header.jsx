@@ -9,16 +9,16 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex justify-evenly text-xl py-5 background-header">
+    <div className="flex justify-evenly text-xl py-4 border-solid border-8 bg-cover bg-background2 border-background-50">
       {navigationLinks.map((link) => (
         <div key={link.text}>
           <NavLink
-            className="text-color-#ccc no-underline  hover:text-color-#ffdc84"
+            className="no-underline hover:text-color-#ffdc84"
             to={link.to}
           >
             {link.text}
           </NavLink>
-          <hr className="mt-1.5 text-color-#ccc" />
+          <hr className="mt-1 shadow-black border-solid border-2 border-background-50" />
         </div>
       ))}
     </div>
