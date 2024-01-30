@@ -14,6 +14,14 @@ import {
 const Projects = () => {
   const [module, setModule] = useState("");
 
+  const handleClick = (moduleName) => {
+    if (module === moduleName) {
+      setModule("");
+    } else {
+      setModule(moduleName);
+    }
+  };
+
   return (
     <div>
       <Header />
@@ -37,7 +45,7 @@ const Projects = () => {
             ))}
           </div>
         </div>
-        <hr className="w-3/6 mx-auto my-6 items-center text-color-#ccc shadow-black" />
+        <hr className="w-3/6 my-6 mx-auto shadow-black border-solid border-2 border-background-50" />
         <div>
           <h1 className="text-4xl font-bold mb-6 font-albertson tracking-wider">
             Projetos desenvolvidos na{" "}
@@ -51,12 +59,28 @@ const Projects = () => {
             </a>
           </h1>
           <div className="flex justify-center m-auto mb-3 items-center">
-            <Button onClick={() => setModule("fundamentals")}>
+            <Button
+              isSelected={module === "fundamentals"}
+              onClick={() => handleClick("fundamentals")}
+            >
               Fundamentos
             </Button>
-            <Button onClick={() => setModule("front-end")}>Front End</Button>
-            <Button onClick={() => setModule("back-end")}>Back End</Button>
-            <Button onClick={() => setModule("computer-science")}>
+            <Button
+              isSelected={module === "front-end"}
+              onClick={() => handleClick("front-end")}
+            >
+              Front End
+            </Button>
+            <Button
+              isSelected={module === "back-end"}
+              onClick={() => handleClick("back-end")}
+            >
+              Back End
+            </Button>
+            <Button
+              isSelected={module === "computer-science"}
+              onClick={() => handleClick("computer-science")}
+            >
               Ciências da computação
             </Button>
           </div>
