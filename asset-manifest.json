@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.2bd7bbdb.css",
-    "main.js": "/my-portfolio/static/js/main.a563e141.js",
+    "main.css": "/my-portfolio/static/css/main.d17208b1.css",
+    "main.js": "/my-portfolio/static/js/main.05cbb38b.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/background.png": "/my-portfolio/static/media/background.3c5ab1e41d34ab68f976.png",
+    "static/media/project1.gif": "/my-portfolio/static/media/project1.345f7ff934673168a1de.gif",
+    "static/media/background.png": "/my-portfolio/static/media/background.a62177f395339092110e.png",
     "static/media/recipes-app.png": "/my-portfolio/static/media/recipes-app.922cb30427588515116e.png",
     "static/media/solar-system.png": "/my-portfolio/static/media/solar-system.031c887a03befe03ecf3.png",
     "static/media/one-for-all.png": "/my-portfolio/static/media/one-for-all.53e673e6ebbdaeb18439.png",
@@ -25,7 +26,9 @@
     "static/media/trybe-wallet.png": "/my-portfolio/static/media/trybe-wallet.9dac955c409419b3cf5b.png",
     "static/media/docker-to-do-list.png": "/my-portfolio/static/media/docker-to-do-list.1b48757e0d93785eddd4.png",
     "static/media/lessons-learned.png": "/my-portfolio/static/media/lessons-learned.3660290cc400270b6481.png",
+    "static/media/background2.jpg": "/my-portfolio/static/media/background2.bd08227fa63394b9f468.jpg",
     "static/media/trybewarts.png": "/my-portfolio/static/media/trybewarts.00225c8d0d6bbf42ec74.png",
+    "static/media/border.jpg": "/my-portfolio/static/media/border.bd93e6437c7cb140a025.jpg",
     "static/media/starwars-planets-search.png": "/my-portfolio/static/media/starwars-planets-search.fa80d0d0fe0f11dde13b.png",
     "static/media/job-insights.png": "/my-portfolio/static/media/job-insights.b5f59eda19236af305fe.png",
     "static/media/frontend-online-store.png": "/my-portfolio/static/media/frontend-online-store.807006231c32d9175ff2.png",
@@ -37,12 +40,12 @@
     "static/media/to-do-list.png": "/my-portfolio/static/media/to-do-list.727476945056c5a53e7b.png",
     "static/media/pixel-art.png": "/my-portfolio/static/media/pixel-art.8c5f98c8c5d7888ffa07.png",
     "index.html": "/my-portfolio/index.html",
-    "main.2bd7bbdb.css.map": "/my-portfolio/static/css/main.2bd7bbdb.css.map",
-    "main.a563e141.js.map": "/my-portfolio/static/js/main.a563e141.js.map",
+    "main.d17208b1.css.map": "/my-portfolio/static/css/main.d17208b1.css.map",
+    "main.05cbb38b.js.map": "/my-portfolio/static/js/main.05cbb38b.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bd7bbdb.css",
-    "static/js/main.a563e141.js"
+    "static/css/main.d17208b1.css",
+    "static/js/main.05cbb38b.js"
   ]
 }
