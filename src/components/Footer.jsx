@@ -1,58 +1,66 @@
 import React from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
+import PropTypes from "prop-types";
 
 const Footer = () => {
   return (
-    <div className="mt-12 background-footer">
-      <div className="w-full max-w-screen-xl mx-auto p-4 py-8">
-        <div className="flex items-center justify-between">
-          <a
-            href="https://github.com/xitusz"
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center hover:underline hover:text-color-#ffdc84 active:text-color-#ffba05"
-          >
-            <img
-              src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png"
-              alt="github"
-              className="h-16"
-            />
-            <p className="text-2xl font-semibold whitespace-nowrap">GitHub</p>
-          </a>
-          <ul className="flex flex-wrap">
-            <li className="pr-2">
+    <div className="bg-background2 bg-cover border-solid border-8 mt-12 border-background-50">
+      <div className="w-full max-w-screen-xl mx-auto p-10">
+        <div>
+          <ul className="flex flex-wrap items-center justify-center">
+            <li className="p-1">
               <a
                 href="https://www.linkedin.com/in/gabrielalves1/"
                 target="_blank"
                 rel="noreferrer"
+                data-testid="linkedin-link"
               >
-                <img
-                  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-                  alt="linkedIn"
-                  className="shadow-black"
+                <FaLinkedin
+                  size={26}
+                  className="text-white icon hover:text-color-#ffdc84 active:text-color-#ffba05 hover:scale-125 duration-200"
+                  data-testid="linkedin-icon"
                 />
               </a>
             </li>
-            <li>
+            <li className="p-1">
               <a
                 href="mailto:2kgabrielalves@gmail.com"
                 target="_blank"
                 rel="noreferrer"
+                data-testid="gmail-link"
               >
-                <img
-                  src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
-                  alt="gmail"
-                  className="shadow-black"
+                <FiMail
+                  size={29}
+                  className="text-white icon hover:text-color-#ffdc84 active:text-color-#ffba05 hover:scale-125 duration-200"
+                  data-testid="gmail-icon"
+                />
+              </a>
+            </li>
+            <li className="p-1">
+              <a
+                href="https://github.com/xitusz"
+                target="_blank"
+                rel="noreferrer"
+                data-testid="github-link"
+              >
+                <FaGithub
+                  size={26}
+                  className="text-white icon hover:text-color-#ffdc84 active:text-color-#ffba05 hover:scale-125 duration-200"
+                  data-testid="github-icon"
                 />
               </a>
             </li>
           </ul>
         </div>
-        <hr className="my-6 text-color-#ccc shadow-black mx-auto" />
-        <p className="block text-1rem text-color-#ccc text-center bg-color-#282A2C bg-cover shadow-black bg-opacity-70 p-1 w-max m-auto">
+        <hr className="my-8 mx-auto text-white" />
+        <p className="p-1 w-max m-auto">
           © 2023{" "}
           <a
             href="https://github.com/xitusz"
-            className="hover:underline hover:text-color-#ffdc84 active:text-color-#ffba05"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-color-#ffdc84 active:text-color-#ffba05"
           >
             Gabriel Alves
           </a>
@@ -61,6 +69,14 @@ const Footer = () => {
       </div>
     </div>
   );
+};
+
+Footer.propTypes = {
+  className: PropTypes.string,
+};
+
+Footer.defaultProps = {
+  className: "",
 };
 
 export default Footer;
