@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const Footer = () => {
   return (
-    <div className="bg-background2 bg-cover border-solid border-8 mt-12 border-background-50">
+    <div className="bg-background2 bg-cover border-solid border-8 mt-12 border-background-50 shadow-black">
       <div className="w-full max-w-screen-xl mx-auto p-10">
         <div>
           <ul className="flex flex-wrap items-center justify-center">
@@ -53,7 +53,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <hr className="my-8 mx-auto text-white" />
+        <hr className="my-8 mx-auto shadow-black border-solid border-2 border-background-50" />
         <p className="p-1 w-max m-auto">
           © 2023{" "}
           <a
