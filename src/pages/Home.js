@@ -16,12 +16,12 @@ const Home = () => {
           </p>
         </div>
         <div className="text-center text-1.2rem">
-          <p className="text-color-#ffdc84 px-2 bg-color-#282A2C bg-cover shadow-black bg-opacity-80 w-max m-auto">
+          <p className="text-color-#ffdc84 px-2 shadow-black w-max m-auto bg-cover bg-background2 border-solid border-4 border-background-50">
             Desenvolvedor Web Full Stack
           </p>
         </div>
         <hr className="w-40 my-9 mx-auto text-color-#ccc shadow-black" />
-        <div className="text-center py-2 px-10 text-1.1rem leading-1.6rem bg-color-#282A2C bg-cover shadow-black bg-opacity-80 w-3/6 m-auto">
+        <div className="text-center py-2 px-10 text-1.1rem leading-1.6rem shadow-black w-3/6 m-auto border-solid border-8 border-background-50 bg-cover bg-background2">
           <p>
             Eu tenho o prazer de apresentar meu portfolio web desenvolvido em
             React.
