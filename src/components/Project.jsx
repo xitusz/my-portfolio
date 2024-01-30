@@ -7,7 +7,7 @@ import { BsFillInfoCircleFill } from "react-icons/bs";
 
 const Project = ({ name, image, info, about, github, deployed, page }) => {
   return (
-    <div className="flex flex-col items-center snap-start scroll-ml-6 my-6 mx-6 pb-6 rounded border-solid border-8 border-background-50 bg-cover bg-background2 shadow-black min-w-460px">
+    <div className="flex flex-col items-center snap-start scroll-ml-6 my-6 mx-6 pb-6 rounded border-solid border-8 border-background-50 bg-cover bg-background2 shadow-black min-w-460px max-w-460px">
       <p className="text-1.2rem font-bold pt-4 px-4">{name}</p>
       <hr className="w-3/6 mx-auto shadow-black border-solid border-2 border-background-50" />
       <ModalImage
