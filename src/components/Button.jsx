@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Button = ({
+  isSelected,
   className,
   type,
   onClick,
@@ -10,7 +11,7 @@ const Button = ({
   dataTestId,
 }) => (
   <button
-    className={className}
+    className={`${className} ${isSelected ? "selected" : ""}`}
     type={type}
     onClick={onClick}
     disabled={disabled}
@@ -21,6 +22,7 @@ const Button = ({
 );
 
 Button.propTypes = {
+  isSelected: PropTypes.bool,
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
   type: PropTypes.string,
@@ -30,8 +32,9 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
+  isSelected: false,
   className:
-    "border border-solid border-color-#5c4200 shadow-black py-2 px-3 mx-3 rounded-full bg-color-#c45911 hover:bg-color-#ffba05 font-bold active:bg-color-#ffdc84",
+    "border-solid border-4 border-background-50 bg-background2 bg-cover shadow-black py-2 px-3 mx-3 hover:text-color-#ffdc84 hover:border-7 font-bold active:text-color-#ffba05 duration-75",
   type: "button",
   onClick: () => {},
   disabled: false,
