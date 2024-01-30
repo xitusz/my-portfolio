@@ -20,7 +20,7 @@ const Home = () => {
             Desenvolvedor Web Full Stack
           </p>
         </div>
-        <hr className="w-40 my-9 mx-auto text-color-#ccc shadow-black" />
+        <hr className="w-40 my-9 mx-auto shadow-black border-solid border-2 border-background-50" />
         <div className="text-center py-2 px-10 text-1.1rem leading-1.6rem shadow-black w-3/6 m-auto border-solid border-8 border-background-50 bg-cover bg-background2">
           <p>
             Eu tenho o prazer de apresentar meu portfolio web desenvolvido em
