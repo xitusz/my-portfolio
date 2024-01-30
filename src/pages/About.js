@@ -22,10 +22,11 @@ const About = () => {
             <img
               src="https://github.com/xitusz/xitusz/raw/main/RGB.gif"
               alt="Minha foto github"
-              className="m-auto"
+              className="border-solid border-4 m-auto border-background-50 shadow-black"
             />
           </div>
-          <div className="text-center p-6 bg-color-#282A2C bg-cover shadow-black bg-opacity-70 pr-5">
+          <hr className="w-30% mx-auto shadow-black border-solid border-8 border-background-50" />
+          <div className="text-center p-6 bg-background2 bg-cover shadow-black border-solid border-4 border-background-50 pr-5">
             <p>
               Olá 👋, meu nome é Gabriel Alves, tenho 22 anos e sou
               desenvolvedor full stack.
@@ -64,65 +65,67 @@ const About = () => {
           </div>
         </div>
       </div>
-      <hr className="w-30% my-9 mx-auto text-color-#ccc shadow-black" />
-      <div className="text-center py-2 w-3/5 m-auto bg-color-#282A2C bg-cover shadow-black bg-opacity-70">
-        <h1 className="text-4xl font-bold mb-2 font-albertson tracking-wider">
-          Habilidades
-        </h1>
-        <div className="mb-6">
-          <p className="text-1.2rem mb-4">- Linguagens -</p>
-          <div className="flex justify-center flex-wrap">
-            {languages.map((stack) => (
-              <Stack key={stack.id} badge={stack.badge} name={stack.name} />
-            ))}
+      <hr className="w-30% my-9 mx-auto shadow-black border-solid border-2 border-background-50" />
+      <div className="px-12 m-auto flex justify-center">
+        <div className="text-center py-2 px-5 m-auto bg-background2 bg-cover shadow-black border-solid border-4 border-background-50">
+          <h1 className="text-4xl font-bold mb-2 font-albertson tracking-wider">
+            Habilidades
+          </h1>
+          <div className="mb-6">
+            <p className="text-1.2rem mb-4">- Linguagens -</p>
+            <div className="flex justify-center flex-wrap">
+              {languages.map((stack) => (
+                <Stack key={stack.id} badge={stack.badge} name={stack.name} />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="mb-6">
-          <p className="text-1.2rem mb-4">- Frameworks & Libraries -</p>
-          <div className="flex justify-center flex-wrap">
-            {frameworkLibrary.map((stack) => (
-              <Stack key={stack.id} badge={stack.badge} name={stack.name} />
-            ))}
+          <div className="mb-6">
+            <p className="text-1.2rem mb-4">- Frameworks & Libraries -</p>
+            <div className="flex justify-center flex-wrap">
+              {frameworkLibrary.map((stack) => (
+                <Stack key={stack.id} badge={stack.badge} name={stack.name} />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="mb-6">
-          <p className="text-1.2rem mb-4">- Testes -</p>
-          <div className="flex justify-center flex-wrap">
-            {testing.map((stack) => (
-              <Stack key={stack.id} badge={stack.badge} name={stack.name} />
-            ))}
+          <div className="mb-6">
+            <p className="text-1.2rem mb-4">- Testes -</p>
+            <div className="flex justify-center flex-wrap">
+              {testing.map((stack) => (
+                <Stack key={stack.id} badge={stack.badge} name={stack.name} />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="mb-6">
-          <p className="text-1.2rem mb-4">- Banco de Dados -</p>
-          <div className="flex justify-center flex-wrap">
-            {dataBase.map((stack) => (
-              <Stack key={stack.id} badge={stack.badge} name={stack.name} />
-            ))}
+          <div className="mb-6">
+            <p className="text-1.2rem mb-4">- Banco de Dados -</p>
+            <div className="flex justify-center flex-wrap">
+              {dataBase.map((stack) => (
+                <Stack key={stack.id} badge={stack.badge} name={stack.name} />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="mb-6">
-          <p className="text-1.2rem mb-4">- ORM -</p>
-          <div className="flex justify-center flex-wrap">
-            {orm.map((stack) => (
-              <Stack key={stack.id} badge={stack.badge} name={stack.name} />
-            ))}
+          <div className="mb-6">
+            <p className="text-1.2rem mb-4">- ORM -</p>
+            <div className="flex justify-center flex-wrap">
+              {orm.map((stack) => (
+                <Stack key={stack.id} badge={stack.badge} name={stack.name} />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="mb-6">
-          <p className="text-1.2rem mb-4">- Nuvem -</p>
-          <div className="flex justify-center flex-wrap">
-            {cloud.map((stack) => (
-              <Stack key={stack.id} badge={stack.badge} name={stack.name} />
-            ))}
+          <div className="mb-6">
+            <p className="text-1.2rem mb-4">- Nuvem -</p>
+            <div className="flex justify-center flex-wrap">
+              {cloud.map((stack) => (
+                <Stack key={stack.id} badge={stack.badge} name={stack.name} />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="mb-6">
-          <p className="text-1.2rem mb-4">- Outros -</p>
-          <div className="flex justify-center flex-wrap">
-            {others.map((stack) => (
-              <Stack key={stack.id} badge={stack.badge} name={stack.name} />
-            ))}
+          <div className="mb-6">
+            <p className="text-1.2rem mb-4">- Outros -</p>
+            <div className="flex justify-center flex-wrap">
+              {others.map((stack) => (
+                <Stack key={stack.id} badge={stack.badge} name={stack.name} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
