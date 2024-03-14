@@ -3,41 +3,41 @@ export const languages = [
     id: 1,
     name: "JavaScript",
     image:
-      "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     badge:
-      "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E",
+      "https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge",
   },
   {
     id: 2,
     name: "TypeScript",
     image:
-      "https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     badge:
-      "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge",
   },
   {
     id: 3,
     name: "Python",
     image:
-      "https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     badge:
-      "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue",
+      "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge",
   },
   {
     id: 4,
     name: "CSS",
     image:
-      "https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     badge:
-      "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+      "https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge",
   },
   {
     id: 5,
     name: "HTML",
     image:
-      "https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     badge:
-      "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+      "https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge",
   },
 ];
 
@@ -46,48 +46,49 @@ export const frameworkLibrary = [
     id: 1,
     name: "React",
     image:
-      "https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     badge:
-      "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+      "https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge",
   },
   {
     id: 2,
-    name: "React Router",
-    image: "",
+    name: "Redux",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
     badge:
-      "https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white",
+      "https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge",
   },
   {
     id: 3,
-    name: "Redux",
+    name: "Angular",
     image:
-      "https://user-images.githubusercontent.com/25181517/187896150-cc1dcb12-d490-445c-8e4d-1275cd2388d6.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
     badge:
-      "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
+      "https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white&style=for-the-badge",
   },
   {
     id: 4,
     name: "ExpressJS",
     image:
-      "https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     badge:
-      "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white",
+      "https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=for-the-badge",
   },
   {
     id: 5,
     name: "NodeJS",
     image:
-      "https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     badge:
-      "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white",
+      "https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge",
   },
   {
     id: 6,
     name: "Docker",
     image:
-      "https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
     badge:
-      "https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white",
+      "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge",
   },
   {
     id: 7,
@@ -100,17 +101,16 @@ export const frameworkLibrary = [
     id: 8,
     name: "Bootstrap",
     image:
-      "https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
     badge:
-      "https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white",
+      "https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge",
   },
   {
     id: 9,
     name: "Tailwind",
-    image:
-      "https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png",
+    image: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
     badge:
-      "https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white",
+      "https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge",
   },
 ];
 
@@ -119,9 +119,9 @@ export const testing = [
     id: 1,
     name: "Jest",
     image:
-      "https://user-images.githubusercontent.com/25181517/187955005-f4ca6f1a-e727-497b-b81b-93fb9726268e.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
     badge:
-      "https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white",
+      "https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white&style=for-the-badge",
   },
   {
     id: 2,
@@ -150,9 +150,16 @@ export const testing = [
     id: 5,
     name: "Pytest",
     image:
-      "https://user-images.githubusercontent.com/25181517/184117132-9e89a93b-65fb-47c3-91e7-7d0f99e7c066.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg",
     badge:
-      "https://img.shields.io/badge/Pytest-3793EF?style=for-the-badge&logo=Pytest&logoColor=white",
+      "https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest&logoColor=white&style=for-the-badge",
+  },
+  {
+    id: 6,
+    name: "Jasmine",
+    image: "https://cdn.simpleicons.org/jasmine/8A4182",
+    badge:
+      "https://img.shields.io/badge/Jasmine-8A4182?logo=jasmine&logoColor=white&style=for-the-badge",
   },
 ];
 
@@ -161,17 +168,17 @@ export const dataBase = [
     id: 1,
     name: "MySQL",
     image:
-      "https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     badge:
-      "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white",
+      "https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge",
   },
   {
     id: 2,
     name: "MongoDB",
     image:
-      "https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     badge:
-      "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
+      "https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge",
   },
 ];
 
@@ -180,9 +187,9 @@ export const orm = [
     id: 1,
     name: "Sequelize",
     image:
-      "https://camo.githubusercontent.com/a2ef2bb116ae565bb254cbb11194dae357eb7582a8babeab337bd3932687d63d/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f73657175656c697a652f73657175656c697a652d6f726967696e616c2e737667",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
     badge:
-      "https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white",
+      "https://img.shields.io/badge/Sequelize-52B0E7?logo=sequelize&logoColor=white&style=for-the-badge",
   },
 ];
 
@@ -191,9 +198,9 @@ export const cloud = [
     id: 1,
     name: "Heroku",
     image:
-      "https://camo.githubusercontent.com/d3c6550082b8555095a4d26683324126d3e00fb429a30505bb56911b8cf57369/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6865726f6b752f6865726f6b752d6f726967696e616c2e737667",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg",
     badge:
-      "https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white",
+      "https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white&style=for-the-badge",
   },
 ];
 
@@ -202,17 +209,17 @@ export const others = [
     id: 1,
     name: "Git",
     image:
-      "https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     badge:
-      "https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white",
+      "https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge",
   },
   {
     id: 2,
-    name: "Ubuntu",
+    name: "Linux",
     image:
-      "https://user-images.githubusercontent.com/25181517/186884153-99edc188-e4aa-4c84-91b0-e2df260ebc33.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
     badge:
-      "https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white",
+      "https://img.shields.io/badge/Linux-F05032?logo=linux&logoColor=white&style=for-the-badge",
   },
   {
     id: 3,
@@ -231,9 +238,10 @@ export const others = [
   {
     id: 5,
     name: "Eslint",
-    image: "",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
     badge:
-      "https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white",
+      "https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white&style=for-the-badge",
   },
   {
     id: 6,
@@ -246,9 +254,8 @@ export const others = [
   {
     id: 7,
     name: "Postman",
-    image:
-      "https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png",
+    image: "https://cdn.simpleicons.org/postman/FF6C37",
     badge:
-      "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white",
+      "https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&style=for-the-badge",
   },
 ];
