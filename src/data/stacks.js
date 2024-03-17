@@ -23,22 +23,6 @@ export const languages = [
     badge:
       "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge",
   },
-  {
-    id: 4,
-    name: "CSS",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    badge:
-      "https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge",
-  },
-  {
-    id: 5,
-    name: "HTML",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    badge:
-      "https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge",
-  },
 ];
 
 export const frameworkLibrary = [
@@ -84,21 +68,6 @@ export const frameworkLibrary = [
   },
   {
     id: 6,
-    name: "Docker",
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-    badge:
-      "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge",
-  },
-  {
-    id: 7,
-    name: "JWT",
-    image: "",
-    badge:
-      "https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white",
-  },
-  {
-    id: 8,
     name: "Bootstrap",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
@@ -106,7 +75,7 @@ export const frameworkLibrary = [
       "https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge",
   },
   {
-    id: 9,
+    id: 7,
     name: "Tailwind",
     image: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
     badge:
@@ -125,18 +94,18 @@ export const testing = [
   },
   {
     id: 2,
+    name: "Testing Library",
+    image: "https://avatars.githubusercontent.com/u/49996085?s=200&amp;v=4",
+    badge:
+      "https://img.shields.io/badge/-Testing_Library-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white",
+  },
+  {
+    id: 3,
     name: "Chai",
     image:
       "https://user-images.githubusercontent.com/25181517/201476472-d2f5f644-cfc9-43e5-96d3-c8f40f18b5cb.png",
     badge:
       "https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white",
-  },
-  {
-    id: 3,
-    name: "Testing Library",
-    image: "https://avatars.githubusercontent.com/u/49996085?s=200&amp;v=4",
-    badge:
-      "https://img.shields.io/badge/-Testing_Library-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white",
   },
   {
     id: 4,
@@ -163,7 +132,7 @@ export const testing = [
   },
 ];
 
-export const dataBase = [
+export const dataBaseAndOrm = [
   {
     id: 1,
     name: "MySQL",
@@ -180,11 +149,8 @@ export const dataBase = [
     badge:
       "https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge",
   },
-];
-
-export const orm = [
   {
-    id: 1,
+    id: 3,
     name: "Sequelize",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
@@ -207,6 +173,23 @@ export const cloud = [
 export const others = [
   {
     id: 1,
+    name: "HTML",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    badge:
+      "https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge",
+  },
+
+  {
+    id: 2,
+    name: "CSS",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    badge:
+      "https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge",
+  },
+  {
+    id: 3,
     name: "Git",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
@@ -214,7 +197,15 @@ export const others = [
       "https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge",
   },
   {
-    id: 2,
+    id: 4,
+    name: "Docker",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    badge:
+      "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge",
+  },
+  {
+    id: 5,
     name: "Linux",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
@@ -222,40 +213,25 @@ export const others = [
       "https://img.shields.io/badge/Linux-F05032?logo=linux&logoColor=white&style=for-the-badge",
   },
   {
-    id: 3,
+    id: 6,
     name: "Prettier",
     image: "",
     badge:
       "https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E",
   },
   {
-    id: 4,
+    id: 7,
     name: "Stylelint",
     image: "",
     badge:
       "https://img.shields.io/badge/stylelint-000?style=for-the-badge&logo=stylelint&logoColor=white",
   },
   {
-    id: 5,
+    id: 8,
     name: "Eslint",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
     badge:
       "https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white&style=for-the-badge",
-  },
-  {
-    id: 6,
-    name: "Insomnia",
-    image:
-      "https://camo.githubusercontent.com/49173798507f976bb55ad37f4ca77403429bbb0ec54a146a391e53d694a738bd/68747470733a2f2f7365656b6c6f676f2e636f6d2f696d616765732f492f696e736f6d6e69612d6c6f676f2d413335453039454231392d7365656b6c6f676f2e636f6d2e706e67",
-    badge:
-      "https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white",
-  },
-  {
-    id: 7,
-    name: "Postman",
-    image: "https://cdn.simpleicons.org/postman/FF6C37",
-    badge:
-      "https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&style=for-the-badge",
   },
 ];
