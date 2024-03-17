@@ -6,8 +6,7 @@ import {
   languages,
   frameworkLibrary,
   testing,
-  dataBase,
-  orm,
+  dataBaseAndOrm,
   cloud,
   others,
 } from "../data/stacks";
@@ -96,17 +95,9 @@ const About = () => {
             </div>
           </div>
           <div className="mb-6">
-            <p className="text-1.2rem mb-4">- Banco de Dados -</p>
+            <p className="text-1.2rem mb-4">- Banco de Dados e ORM -</p>
             <div className="flex justify-center flex-wrap">
-              {dataBase.map((stack) => (
-                <Stack key={stack.id} badge={stack.badge} name={stack.name} />
-              ))}
-            </div>
-          </div>
-          <div className="mb-6">
-            <p className="text-1.2rem mb-4">- ORM -</p>
-            <div className="flex justify-center flex-wrap">
-              {orm.map((stack) => (
+              {dataBaseAndOrm.map((stack) => (
                 <Stack key={stack.id} badge={stack.badge} name={stack.name} />
               ))}
             </div>
